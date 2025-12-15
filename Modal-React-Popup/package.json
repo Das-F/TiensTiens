@@ -1,0 +1,41 @@
+{
+  "name": "modal-react-popup",
+  "version": "1.0.0",
+  "description": "Composant React léger et réutilisable pour afficher une modale.",
+  "main": "dist/ModalPopUp.umd.js",
+  "module": "dist/ModalPopUp.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "popup",
+    "component"
+  ],
+  "author": "Diane",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Das-F/modal-react-popup.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.0"
+  }
+}
