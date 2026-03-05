@@ -13,4 +13,8 @@ const books = [
   { title: "Fauves", author: "Melissa Da Costa", image: "/assets/bookscover/fauves.jpg", tags: ["# émotion", "# drame"] },
   { title: "Une pension en Italie", author: "Philippe Besson", image: "/assets/bookscover/une-pension-en-italie.jpg", tags: ["# amour", "# nostalgie"] },
   { title: "Le visage de la nuit", author: "Cécile Coulon", image: "/assets/bookscover/le-visage-de-la-nuit.jpg", tags: ["# drame", "# psychologie"] },
+  { title: "La dernière chanson d'amour", author: "Lucinda Riley", image: "/assets/bookscover/la-derniere-chanson-d-amour.jpg", tags: ["# amour", "# aventure"] },
+  { title: "Nos héritages", author: "Anna Hope", image: "/assets/bookscover/nos-heritages.jpg", tags: ["# drame", "# famille"] },
+  { title: "Norferville", author: "Franck Thilliez", image: "/assets/bookscover/norferville.jpg", tags: ["# polar", "# suspense"] },
+  { title: "Sur le toit de l'enfer", author: "Ilaria Tuti", image: "/assets/bookscover/sur-le-toit-de-l-enfer.jpg", tags: ["# thriller", "# suspense"] },
 ];
