@@ -129,7 +129,6 @@ a:focus-visible {
 }
 
 .book-card {
-  padding: 15px;
   border: 1px solid #ddd;
 }
 
@@ -137,6 +136,9 @@ a:focus-visible {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+.book-card .title-author {
+  padding: 10px;
 }
 
 .book-card h2 {
@@ -157,7 +159,7 @@ a:focus-visible {
   gap: 5px;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 10px;
+  margin: 10px;
   justify-content: flex-end;
 }
 
