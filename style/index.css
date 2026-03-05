@@ -111,11 +111,11 @@ a:focus-visible {
 
 .tag-item {
   display: inline-block;
-  background-color: #f97316;
+  background-color: #57acc4;
   color: white;
   padding: 6px 12px;
   border-radius: 10px;
-  border: 2px solid #f97316;
+  border: 1px solid #57acc4;
   font-size: 0.9em;
   font-weight: 600;
   margin-right: 5px;

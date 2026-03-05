@@ -4,10 +4,12 @@
 function createTagElement(tag) {
   const tagDiv = document.createElement("span");
   tagDiv.textContent = tag;
-  tagDiv.style.display = "inline-block";
-  tagDiv.style.margin = "2px";
-  tagDiv.style.padding = "2px 4px";
-  tagDiv.style.backgroundColor = "#f0f0f0";
+  tagDiv.classList.add("tag-item");
+  // add a normalized data attribute for targeting specific tags in CSS/JS
+  tagDiv.dataset.tag = String(tag)
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9\-]/g, "");
   return tagDiv;
 }
 
