@@ -17,8 +17,8 @@ function createBookCard() {
   card.classList.add("book-card");
   const img = document.createElement("img");
   img.alt = "cover";
-  img.style.width = "100px";
-  img.style.height = "150px";
+  img.style.width = "100%";
+  img.style.height = "250px";
   card.appendChild(img);
   const titleAuthorContainer = document.createElement("div");
   titleAuthorContainer.classList.add("title-author");
@@ -61,7 +61,7 @@ function fillBookCard(card, book) {
 }
 
 function displayBooks(books) {
-  const feed = document.querySelector(".news.feed") || document.querySelector(".news") || document.querySelector(".feed") || document.body;
+  const feed = document.querySelector(".feed");
   if (!Array.isArray(books) || books.length === 0) return;
   books.forEach((book) => {
     const card = createBookCard();
