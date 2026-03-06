@@ -5,11 +5,6 @@ function createTagElement(tag) {
   const tagDiv = document.createElement("span");
   tagDiv.textContent = tag;
   tagDiv.classList.add("tag-item");
-  // add a normalized data attribute for targeting specific tags in CSS/JS
-  tagDiv.dataset.tag = String(tag)
-    .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/[^a-z0-9\-]/g, "");
   return tagDiv;
 }
 
