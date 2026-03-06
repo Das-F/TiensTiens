@@ -26,7 +26,7 @@ function createBookCard() {
   titleAuthorContainer.classList.add("title-author");
   card.appendChild(titleAuthorContainer);
   const title = document.createElement("h2");
-  const author = document.createElement("p");
+  const author = document.createElement("h3");
   titleAuthorContainer.appendChild(title);
   titleAuthorContainer.appendChild(author);
   const tagsContainer = document.createElement("div");
@@ -52,7 +52,7 @@ function createBookCard() {
 function fillBookCard(card, book) {
   card.querySelector("img").src = book.image;
   card.querySelector("h2").textContent = book.title;
-  card.querySelector("p").textContent = `${book.author}`;
+  card.querySelector("h3").textContent = `${book.author}`;
   const tagsContainer = card.querySelector(".tags") || card;
   if (Array.isArray(book.tags)) {
     book.tags.forEach((tag) => {
